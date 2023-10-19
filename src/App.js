@@ -9,14 +9,12 @@ import VocabCards from './Components/JavaScript/VocabCards';
 function App() {
   return (
     <>
-      <Router>
-        <Routes>
-          <Route path="*" element={<KanjiCardsKanji />} />
-          <Route path="*/kanji" element={<KanjiCardsKanji />} />
-          <Route path="*/hiragana" element={<KanjiCardsHiragana />} />
-          <Route path="*/vocab" element={<VocabCards />} />
-        </Routes>
-      </Router >
+      <Routes>
+        <Route path="*" element={<KanjiCardsKanji />} />
+        <Route path="*/kanji" element={<KanjiCardsKanji />} />
+        <Route path="*/hiragana" element={<KanjiCardsHiragana />} />
+        <Route path="*/vocab" element={<VocabCards />} />
+      </Routes>
     </>
   );
 }
