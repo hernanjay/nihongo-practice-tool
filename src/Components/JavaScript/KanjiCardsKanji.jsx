@@ -95,6 +95,7 @@ function KanjiCardsKanji() {
                                             <Form.Control
                                                 id={index}
                                                 className='border text-center mb-3'
+                                                isValid={item.isValid}
                                                 type="text"
                                                 onChange={(e) => {
                                                     if (item.kanjiHir === e.currentTarget.value) {
