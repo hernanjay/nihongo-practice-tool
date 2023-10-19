@@ -1,0 +1,50 @@
+.bg {
+    background-color: #f5e7c1;
+}
+
+.kanjiCard {
+    background-color: #fffdf3 !important;
+
+}
+
+.kanjiCardHeader {
+    background-color: #EABF9F !important;
+}
+
+.kanjiCardBorder {
+    border: 1px solid #B68973 !important;
+}
+
+.kanjiCardBorderSuccess {
+    border: 1px solid #B68973 !important;
+}
+
+.kanjiCardBorderFail {
+    border: 1px solid #B68973 !important;
+}
+
+.kanjiCardBody {
+    color: #9f6d54 !important;
+}
+
+.floatingButtonKanji {
+    position: fixed;
+    bottom: 2vh;
+    right: 1vw;
+    border: 1px solid #B68973 !important;
+}
+
+.buttons {
+    background-color: #ffffff !important;
+    font-size: small !important;
+    width: 25% !important;
+    color: #9f6d54 !important;
+    border: 1px solid #B68973 !important;
+}
+
+.buttons:hover {
+    background-color: #EABF9F !important;
+    width: 25% !important;
+    color: #ffffff !important;
+    border: 1px solid #B68973 !important;
+}
