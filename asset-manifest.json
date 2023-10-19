@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/nihongo-practice-tool/static/css/main.9b9afa14.css",
-    "main.js": "/nihongo-practice-tool/static/js/main.adda5bfa.js",
+    "main.js": "/nihongo-practice-tool/static/js/main.62f50a4a.js",
     "index.html": "/nihongo-practice-tool/index.html",
     "main.9b9afa14.css.map": "/nihongo-practice-tool/static/css/main.9b9afa14.css.map",
-    "main.adda5bfa.js.map": "/nihongo-practice-tool/static/js/main.adda5bfa.js.map"
+    "main.62f50a4a.js.map": "/nihongo-practice-tool/static/js/main.62f50a4a.js.map"
   },
   "entrypoints": [
     "static/css/main.9b9afa14.css",
-    "static/js/main.adda5bfa.js"
+    "static/js/main.62f50a4a.js"
   ]
 }
