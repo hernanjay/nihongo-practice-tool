@@ -51,7 +51,7 @@ function KanjiCardsHiraganaButtonsChoices(props) {
         <>
             <Form>
                 <div className="KanjiCardsHiraganaButtonsChoices">
-                    <ButtonToolbar class="d-grid gap-1">
+                    <ButtonToolbar cla="d-grid gap-1">
                         <Button id={choices[0].kanjiChar} type="button" size="sm" disabled={isButtonClicked} onClick={(e) => {
                             props.func();
                             setisButtonClicked(!isButtonClicked);

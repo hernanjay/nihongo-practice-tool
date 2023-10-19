@@ -1,9 +1,10 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { NavLink } from 'react-router-dom';
 import '../CSS/NavBar.css';
 
-function appNavBar() {
+function appNavBar(props) {
     return (
         <Navbar expand="lg" className="nav-bar-bg shadow sticky-top" data-bs-theme="dark">
             <Container>
@@ -20,9 +21,15 @@ function appNavBar() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link href="kanji">Kan to Hir</Nav.Link>
-                        <Nav.Link href="hiragana">Hir to Kan</Nav.Link>
-                        <Nav.Link href="vocab">Vocab</Nav.Link>
+                        <Nav.Link as={NavLink} to="/kanji" onClick={(e) => {
+                            props.func();
+                        }}>Kan to Hir</Nav.Link>
+                        <Nav.Link as={NavLink} to="/hiragana" onClick={(e) => {
+                            props.func();
+                        }}>Hir to Kan</Nav.Link>
+                        <Nav.Link as={NavLink} to="/vocab" onClick={(e) => {
+                            props.func();
+                        }}>Vocab</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

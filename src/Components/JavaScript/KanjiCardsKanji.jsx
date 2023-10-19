@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Row, Col, Container, Form, CardFooter, Card, Modal, ModalFooter } from 'react-bootstrap';
 import { ToastContainer, toast } from 'react-toastify';
-import NavBar from './NavBar';
 import 'react-toastify/dist/ReactToastify.css';
 import '../CSS/Kanji.css';
 
@@ -65,7 +64,6 @@ function KanjiCardsKanji() {
 
     return (
         <>
-            <NavBar />
             <MyVerticallyCenteredModal
                 show={modalShow}
                 onHide={() => setModalShow(false)}

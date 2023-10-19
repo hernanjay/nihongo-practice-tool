@@ -65,7 +65,6 @@ function KanjiCardsKanji() {
 
     return (
         <>
-            <NavBar />
             <MyVerticallyCenteredModal
                 show={modalShow}
                 onHide={() => setModalShow(false)}

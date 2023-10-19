@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Row, Col, Container, CardFooter, Card, Modal, ModalFooter } from 'react-bootstrap';
 import KanjiCardsHiraganaButtonsChoices from './KanjiCardsHiraganaButtonsChoices';
-import NavBar from './NavBar';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import '../CSS/Kanji.css';
@@ -58,7 +57,6 @@ function KanjiCardsHiragana() {
 
     return (
         <>
-            <NavBar />
             <MyVerticallyCenteredModal
                 show={modalShow}
                 onHide={() => setModalShow(false)}
