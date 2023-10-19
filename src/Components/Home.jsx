@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import NavBar from './JavaScript/NavBar';
 import KanjiCardsKanji from './JavaScript/KanjiCardsKanji';
 import KanjiCardsHiragana from './JavaScript/KanjiCardsHiragana';
 import VocabCards from './JavaScript/VocabCards';
-
+import './CSS/Home.css';
 function Home() {
     const [hasChanged, setHasChanged] = useState(false);
 
@@ -17,7 +17,10 @@ function Home() {
         } else if (currentPath === '/nihongo-practice-tool/#/vocab') {
             return <VocabCards />
         } else {
-            return <KanjiCardsKanji />;
+            return <div className='home'><img
+                src='https://media.tenor.com/OjBnHuXIjgwAAAAC/gudetama-sanrio.gif'
+                className='position-fixed top-50 start-50 translate-middle homeImg'
+            /></div>;
         }
     }
 

@@ -156,38 +156,33 @@
             "isValid": false
         },
         {
-            "vocabHir": "あな",
-            "vocabMeaning": "あびる",
+            "vocabHir": "あびる",
+            "vocabMeaning": "浴びる to bathe, to bask in the sun, to shower",
             "isValid": false
         },
         {
-            "vocabHir": "浴びる to bathe, to bask in the sun, to shower",
-            "vocabMeaning": "あぶら",
+            "vocabHir": "あぶら",
+            "vocabMeaning": "油 oil",
             "isValid": false
         },
         {
-            "vocabHir": "油 oil",
-            "vocabMeaning": "あまり",
+            "vocabHir": "あまり",
+            "vocabMeaning": "余り not very (used as adverb), not much",
             "isValid": false
         },
         {
-            "vocabHir": "余り not very (used as adverb), not much",
-            "vocabMeaning": "あやまり",
+            "vocabHir": "あやまり",
+            "vocabMeaning": "誤り error",
             "isValid": false
         },
         {
-            "vocabHir": "誤り error",
-            "vocabMeaning": "あら",
+            "vocabHir": "あら",
+            "vocabMeaning": "粗 defect, flaw, blemish, weak point",
             "isValid": false
         },
         {
-            "vocabHir": "粗 defect, flaw, blemish, weak point",
-            "vocabMeaning": "あらし",
-            "isValid": false
-        },
-        {
-            "vocabHir": "嵐 storm, tempest",
-            "vocabMeaning": "あらし",
+            "vocabHir": "あらし",
+            "vocabMeaning": "嵐 storm, tempest",
             "isValid": false
         },
         {

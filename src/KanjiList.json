@@ -19,12 +19,6 @@
             "isValid": false
         },
         {
-            "kanjiChar": "台所",
-            "kanjiHir": "だいどころ",
-            "kanjiMeaning": "kitchen",
-            "isValid": false
-        },
-        {
             "kanjiChar": "場所",
             "kanjiHir": "ばしょ",
             "kanjiMeaning": "place",
@@ -103,9 +97,15 @@
             "isValid": false
         },
         {
-            "kanjiChar": "暗い",
+            "kanjiChar": "遠い",
             "kanjiHir": "とおい",
             "kanjiMeaning": "far",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "暗い",
+            "kanjiHir": "くらい",
+            "kanjiMeaning": "Dark",
             "isValid": false
         },
         {

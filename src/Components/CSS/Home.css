@@ -1,0 +1,11 @@
+.home {
+    position: absolute;
+    width: 100vw;
+    height: 91vh;
+    background-color: white;
+}
+
+.homeImg {
+    width: 50vh;
+    height: 50vh;
+}

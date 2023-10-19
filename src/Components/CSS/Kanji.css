@@ -48,3 +48,39 @@
     color: #ffffff !important;
     border: 1px solid #B68973 !important;
 }
+
+.form-control::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #EABF9F !important;
+    opacity: 1;
+    /* Firefox */
+}
+
+.form-control:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #EABF9F !important;
+}
+
+.form-control::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #EABF9F !important;
+}
+
+.pagination {
+    --bs-pagination-color: #B68973 !important;
+    --bs-pagination-bg: #fffdf3 !important;
+    --bs-pagination-border-color: #B68973 !important;
+    --bs-pagination-hover-color: #fffdf3 !important;
+    --bs-pagination-hover-bg: #EABF9F !important;
+    --bs-pagination-hover-border-color: #B68973 !important;
+    --bs-pagination-focus-color: #B68973 !important;
+    --bs-pagination-focus-bg: #EABF9F !important;
+    --bs-pagination-focus-box-shadow: 0 0 0 0.25rem #b689732c !important;
+    --bs-pagination-active-color: #fffdf3 !important;
+    --bs-pagination-active-bg: #EABF9F !important;
+    --bs-pagination-active-border-color: #B68973 !important;
+    --bs-pagination-disabled-color: var(--bs-secondary-color);
+    --bs-pagination-disabled-bg: var(--bs-secondary-bg);
+    --bs-pagination-disabled-border-color: var(--bs-border-color);
+    padding-left: 0;
+}

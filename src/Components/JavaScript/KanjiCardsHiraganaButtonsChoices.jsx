@@ -43,8 +43,8 @@ function checkChoice(choice, answer, isButtonClicked) {
 }
 
 function KanjiCardsHiraganaButtonsChoices(props) {
-    const [answer, setAnswer] = useState(props.answer);
-    const [choices, setChoices] = useState(getChoices(answer, props.list));
+    const [answer, setAnswer] = useState(props.list[props.answer]); // eslint-disable-next-line
+    const [choices, setChoices] = useState(getChoices(answer, props.list)); // eslint-disable-next-line
     const [isButtonClicked, setisButtonClicked] = useState(false);
 
     return (
