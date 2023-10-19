@@ -11,7 +11,7 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path="/" element={<KanjiCardsKanji />} />
+          <Route path="*" element={<KanjiCardsKanji />} />
           <Route path="kanji" element={<KanjiCardsKanji />} />
           <Route path="hiragana" element={<KanjiCardsHiragana />} />
           <Route path="vocab" element={<VocabCards />} />
