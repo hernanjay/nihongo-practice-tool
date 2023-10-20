@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { Col, Row, Pagination } from 'react-bootstrap';
 
 let data;
@@ -46,13 +46,28 @@ function movePage(action) {
 }
 
 function PaginationBar(props) {
+    const [isMobile, setIsMobile] = useState(false)
+
+    //choose the screen size 
+    const handleResize = () => {
+        if (window.innerWidth < 720) {
+            setIsMobile(true)
+        } else {
+            setIsMobile(false)
+        }
+    }
+
+    useEffect(() => {
+        window.addEventListener("resize", handleResize)
+    })
+
     data = props.dataProp;
     pages = props.pagesProp;
     activePage = props.activePageProp;
     return (
         <Row className='mt-3'>
             <Col className='d-flex justify-content-center'>
-                <Pagination className='shadow' size='md'>
+                <Pagination className='shadow' size={isMobile ? 'sm' : "md"}>
                     <Pagination.First
                         onClick={(e) => {
                             movePage('first');
