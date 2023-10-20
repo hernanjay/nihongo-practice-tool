@@ -46,28 +46,14 @@ function movePage(action) {
 }
 
 function PaginationBar(props) {
-    const [isMobile, setIsMobile] = useState(false)
-
-    //choose the screen size 
-    const handleResize = () => {
-        if (window.innerWidth < 720) {
-            setIsMobile(true)
-        } else {
-            setIsMobile(false)
-        }
-    }
-
-    useEffect(() => {
-        window.addEventListener("resize", handleResize)
-    })
-
     data = props.dataProp;
     pages = props.pagesProp;
     activePage = props.activePageProp;
+    let isMobile = window.innerWidth < 720;
     return (
         <Row className='mt-3'>
             <Col className='d-flex justify-content-center'>
-                <Pagination className='shadow' size={isMobile ? 'sm' : "md"}>
+                <Pagination className='shadow' size={isMobile ? 'sm' : ''}>
                     <Pagination.First
                         onClick={(e) => {
                             movePage('first');

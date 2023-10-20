@@ -17,12 +17,18 @@ function Home() {
         } else if (currentPath === '/nihongo-practice-tool/#/vocab') {
             return <VocabCards />
         } else {
-            return <div className='home'><img
+            return landingPage();
+        }
+    }
+
+    function landingPage(params) {
+        return (
+            <div className='home'><img
                 src='https://media.tenor.com/OjBnHuXIjgwAAAAC/gudetama-sanrio.gif'
                 className='position-fixed top-50 start-50 translate-middle homeImg'
                 alt=''
-            /></div>;
-        }
+            /></div>
+        )
     }
 
     return (

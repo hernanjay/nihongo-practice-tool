@@ -52,29 +52,33 @@ function KanjiCardsHiraganaButtonsChoices(props) {
             <Form>
                 <div className="KanjiCardsHiraganaButtonsChoices">
                     <ButtonToolbar cla="d-grid gap-1">
-                        <Button id={choices[0].kanjiChar} type="button" size="sm" disabled={isButtonClicked} onClick={(e) => {
+                        <Button id='button1' type="button" size="sm" disabled={isButtonClicked} onClick={(e) => {
                             props.func();
                             setisButtonClicked(!isButtonClicked);
+                            document.getElementById(e.currentTarget.id).blur();
                         }}
                             className={checkChoice(choices[0], answer, isButtonClicked)}>
                             {choices[0].kanjiChar}
                         </Button>
 
-                        <Button type="button" size="sm" disabled={isButtonClicked} onClick={(e) => {
+                        <Button id='button2' type="button" size="sm" disabled={isButtonClicked} onClick={(e) => {
                             props.func();
                             setisButtonClicked(!isButtonClicked)
+                            document.getElementById(e.currentTarget.id).blur();
                         }}
                             className={checkChoice(choices[1], answer, isButtonClicked)}>{choices[1].kanjiChar}</Button>
                     </ButtonToolbar>
 
                     <ButtonToolbar class="d-grid gap-1">
-                        <Button type="button" size="sm" disabled={isButtonClicked} onClick={(e) => {
+                        <Button id='button3' type="button" size="sm" disabled={isButtonClicked} onClick={(e) => {
                             props.func(); setisButtonClicked(!isButtonClicked)
+                            document.getElementById(e.currentTarget.id).blur();
                         }}
                             className={checkChoice(choices[2], answer, isButtonClicked)}>{choices[2].kanjiChar}</Button>
-                        <Button type="button" size="sm" disabled={isButtonClicked} onClick={(e) => {
+                        <Button id='button4' type="button" size="sm" disabled={isButtonClicked} onClick={(e) => {
                             props.func();
                             setisButtonClicked(!isButtonClicked)
+                            document.getElementById(e.currentTarget.id).blur();
                         }}
                             className={checkChoice(choices[3], answer, isButtonClicked)}>{choices[3].kanjiChar}</Button>
                     </ButtonToolbar>

@@ -10,7 +10,7 @@ function appNavBar(props) {
             <Container>
                 <span>
                     <Nav>
-                        <Navbar.Brand>
+                        <Navbar.Brand className='d-none d-md-inline-block'>
                             <img
                                 src="https://media.tenor.com/WBFzeBqRZgYAAAAi/gudetama-busy.gif"
                                 width="40"
@@ -19,14 +19,15 @@ function appNavBar(props) {
                                 alt='Nihongo Practice Tool Logo'
                             />
                         </Navbar.Brand>
-                        <Navbar.Brand className='fs-2 display-1' as={NavLink} to="/home" onClick={(e) => {
+                        <Navbar.Brand className='fs-2 display-1 text-center ' as={NavLink} to="/home" onClick={(e) => {
                             props.func();
-                        }}>N4・日本語・練習用・ツール</Navbar.Brand>
+                        }}>N4・日本語・練習用・ツール
+                        </Navbar.Brand>
+                        <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     </Nav>
                 </span>
                 <span>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                    <Navbar.Collapse id="basic-navbar-nav">
+                    <Navbar.Collapse id="basic-navbar-nav text-center">
                         <Nav className="me-auto">
                             <Nav.Link as={NavLink} to="/kanji" onClick={(e) => {
                                 props.func();

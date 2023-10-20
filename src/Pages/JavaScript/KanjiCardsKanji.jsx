@@ -45,13 +45,15 @@ function KanjiCardsKanji() {
                 onHide={() => setModalShow(false)}
             />
             <Container fluid className='p-3 bg'>
-                <PaginationBar
-                    dataProp={data}
-                    pagesProp={pages}
-                    activePageProp={activePage}
-                    setActivePageProp={setActivePage}
-                    setHasChangedProp={setHasChanged}
-                />
+                <Col >
+                    <PaginationBar
+                        dataProp={data}
+                        pagesProp={pages}
+                        activePageProp={activePage}
+                        setActivePageProp={setActivePage}
+                        setHasChangedProp={setHasChanged}
+                    />
+                </Col>
                 <Row>
                     {createCardsFromData(setHasChanged, setModalShow, activePage)}
                 </Row>
