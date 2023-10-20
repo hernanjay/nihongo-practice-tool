@@ -55,11 +55,13 @@ function KanjiCardsKanji() {
                 <Row>
                     {createCardsFromData(setHasChanged, setModalShow, activePage)}
                 </Row>
-                {/* <PaginationBar
+                <PaginationBar
                     dataProp={data}
-                    setHasChangedProp={setHasChanged}
+                    pagesProp={pages}
+                    activePageProp={activePage}
                     setActivePageProp={setActivePage}
-                /> */}
+                    setHasChangedProp={setHasChanged}
+                />
             </Container >
 
             <ToastContainer
