@@ -1,0 +1,11 @@
+.imgModal {
+    position: absolute !important;
+    left: -40%;
+    top: 15%;
+}
+
+@media only screen and (max-width: 600px) {
+    .imgModal {
+        display: none !important;
+    }
+}

@@ -1,14 +1,16 @@
 import React from 'react'
 import { Modal, ModalFooter } from 'react-bootstrap';
+import '../CSS/Modal.css';
 
 let modalAnswerData = [];
 
 export function KanjiModal(props) {
     modalAnswerData = props.answerData
+    let isMobile = window.innerWidth < 720;
     return (
         <Modal
             {...props}
-            size="md"
+            size='md'
             aria-labelledby="contained-modal-title-vcenter"
             centered
         >
@@ -18,7 +20,8 @@ export function KanjiModal(props) {
                 </Modal.Title>
             </Modal.Header>
             <Modal.Body>
-                <img alt='' className='position-absolute top-50 start-0 translate-middle' src='https://1.bp.blogspot.com/-auO3Bo9t3Q0/X7zMhiUnzhI/AAAAAAABccw/qJt-eSC-STwa8Upc6z3Degmc6ZLHDzekwCNcBGAsYHQ/s450/sagyouin_stand_smartphone_woman.png' />
+                {/* className='position-absolute top-50 start-0 translate-middle'*/}
+                <img className="imgModal" alt='' src='https://1.bp.blogspot.com/-0wXC6MMwTqs/Xrea7O9QSuI/AAAAAAABY1U/apyEhwKBcTws66j3jFVmQUD0dMvIO7GRwCNcBGAsYHQ/s400/study_school_jugyou_boy.png' />
                 <h4 className='kanjiCardBody text-center p-5 m-5 fs-1'>{modalAnswerData[1]}</h4>
                 <ModalFooter>
                     <blockquote className="blockquote mb-0">

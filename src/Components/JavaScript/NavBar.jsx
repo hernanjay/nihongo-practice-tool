@@ -6,16 +6,15 @@ import '../CSS/NavBar.css';
 
 function appNavBar(props) {
     return (
-        <Navbar expand="lg" className="navbar nav-bar-bg shadow sticky-top" data-bs-theme="dark">
-            <Container>
+        <Navbar expand="lg" className="navbar nav-bar-bg shadow sticky-top text-center" data-bs-theme="dark">
+            <Container className=' justify-content-center justify-content-lg-between'>
                 <span>
                     <Nav>
-                        <Navbar.Brand className='d-none d-md-inline-block'>
+                        <Navbar.Brand className='d-none d-lg-flex'>
                             <img
                                 src="https://media.tenor.com/WBFzeBqRZgYAAAAi/gudetama-busy.gif"
                                 width="40"
                                 height="40"
-                                className="d-inline-block"
                                 alt='Nihongo Practice Tool Logo'
                             />
                         </Navbar.Brand>

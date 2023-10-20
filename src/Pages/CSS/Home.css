@@ -1,11 +1,18 @@
-.home {
-    position: absolute;
-    width: 100vw;
-    height: 91vh;
-    background-color: white;
+body {
+    background-color: #f5e7c1 !important;
 }
 
-.homeImg {
-    width: 50vh;
-    height: 50vh;
+.homeCard {
+    background-color: #fffdf3 !important;
+
+}
+
+.homeCardHeader {
+    background-color: #EABF9F !important;
+    color: #fbfbfb !important;
+}
+
+.homeCardBorder {
+    border: 1px solid #B68973 !important;
+
 }
