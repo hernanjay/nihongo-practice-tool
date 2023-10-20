@@ -1,56 +1,42 @@
 import React, { useState, useEffect } from 'react'
 import { Row, Col, Container, CardFooter, Card, Modal, ModalFooter } from 'react-bootstrap';
 import KanjiCardsHiraganaButtonsChoices from './KanjiCardsHiraganaButtonsChoices';
+import { KanjiModal } from '../../Components/JavaScript/Modals';
+import PaginationBar from "../../Components/JavaScript/PaginationBar";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import '../CSS/Kanji.css';
 
-const data = shuffle(require('../../KanjiList.json').kanji);
+const data = shuffle(require('../../HiriganaList.json').kanji);
+let pages = [1, 2, 3, 4, 5, 6, 7];
+let activePage = 1
 let modalAnswerData = [];
 
-function MyVerticallyCenteredModal(props) {
-    return (
-        <Modal
-            {...props}
-            size="md"
-            aria-labelledby="contained-modal-title-vcenter"
-            centered
-        >
-            <Modal.Header className='kanjiCardHeader text-white' closeButton>
-                <Modal.Title id="contained-modal-title-vcenter">
-                    {modalAnswerData[0]}
-                </Modal.Title>
-            </Modal.Header>
-            <Modal.Body>
-                <img className='position-absolute top-50 start-0 translate-middle' src='https://1.bp.blogspot.com/-auO3Bo9t3Q0/X7zMhiUnzhI/AAAAAAABccw/qJt-eSC-STwa8Upc6z3Degmc6ZLHDzekwCNcBGAsYHQ/s450/sagyouin_stand_smartphone_woman.png' alt='' />
-                <h4 className='kanjiCardBody text-center p-5 m-5 fs-1'>{modalAnswerData[1]}</h4>
-                <ModalFooter>
-                    <blockquote className="blockquote mb-0">
-                        <p className='text-muted'>{`平仮名 : ${modalAnswerData[2]}`}</p>
-                        <footer className="blockquote-footer">
-                            <cite title="Source Title">{modalAnswerData[3]}</cite>
-                        </footer>
-                    </blockquote>
-                </ModalFooter>
-            </Modal.Body>
-        </Modal>
-    );
+function setActivePage(pageNum) {
+    activePage = pageNum;
 }
 
+const notify = (hiragana, kanji) => toast.info(`${hiragana} : ${kanji}`, {
+    position: "top-right",
+    autoClose: 1000,
+    hideProgressBar: true,
+    closeOnClick: true,
+    pauseOnHover: true,
+    draggable: true,
+    progress: undefined,
+    theme: "light",
+});
+
+function setModalAnswerText(item, index) {
+    modalAnswerData[0] = `${index + 1} / ${data.length}`;
+    modalAnswerData[1] = item.kanjiChar;
+    modalAnswerData[2] = item.kanjiHir;
+    modalAnswerData[3] = item.kanjiMeaning.charAt(0).toUpperCase() + item.kanjiMeaning.slice(1);
+}
 
 function KanjiCardsHiragana() {
     const [modalShow, setModalShow] = useState(false);
     const [hasChanged, setHasChanged] = useState(false);
-    const notify = (hiragana, kanji) => toast.info(`${hiragana} : ${kanji}`, {
-        position: "top-right",
-        autoClose: 1000,
-        hideProgressBar: true,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        theme: "light",
-    });
 
     useEffect(() => {
         if (hasChanged) setHasChanged(false);
@@ -58,24 +44,59 @@ function KanjiCardsHiragana() {
 
     return (
         <>
-            <MyVerticallyCenteredModal
+            <KanjiModal
+                answerData={modalAnswerData}
                 show={modalShow}
                 onHide={() => setModalShow(false)}
             />
             <Container fluid className='p-3 bg'>
+                <PaginationBar
+                    dataProp={data}
+                    pagesProp={pages}
+                    activePageProp={activePage}
+                    setActivePageProp={setActivePage}
+                    setHasChangedProp={setHasChanged}
+                />
                 <Row>
-                    {data.map((item, index) =>
+                    {createCardsFromData(setHasChanged, setModalShow, activePage)}
+                </Row>
+                {/* <PaginationBar
+                    dataProp={data}
+                    setHasChangedProp={setHasChanged}
+                    setActivePageProp={setActivePage}
+                /> */}
+            </Container >
+            <ToastContainer
+                position="top-right"
+                autoClose={1000}
+                limit={5}
+                hideProgressBar
+                newestOnTop
+                closeOnClick
+                rtl={false}
+                pauseOnFocusLoss={false}
+                draggable
+                pauseOnHover
+                theme="light"
+            />
+        </>
+    )
+}
+
+function createCardsFromData(hasChangedFunc, modalShowFunc, activePage) {
+    return (
+        data.map((item, index) => {
+            if (index >= (activePage - 1) * 16 && index <= ((activePage) * 16 - 1)) {
+                return (
+                    <>
                         <Col md={3} className='p-3'>
                             <div id={'div' + index} key={index}>
                                 <Card className='shadow kanjiCard kanjiCardBorder'>
                                     <Card.Header className='kanjiCardHeader'>
                                         <Row className='text-center text-light'>
                                             <Col md={2} type="button" onClick={() => {
-                                                setModalShow(true);
-                                                modalAnswerData[0] = `${index + 1} / ${data.length}`;
-                                                modalAnswerData[1] = item.kanjiChar;
-                                                modalAnswerData[2] = item.kanjiHir;
-                                                modalAnswerData[3] = item.kanjiMeaning.charAt(0).toUpperCase() + item.kanjiMeaning.slice(1);
+                                                modalShowFunc(true);
+                                                setModalAnswerText(item, index);
                                             }}>?</Col>
                                             <Col md={6} className=''></Col>
                                             <Col md={4}>{index + 1} / {data.length}</Col>
@@ -90,7 +111,7 @@ function KanjiCardsHiragana() {
                                                 answer={index}
                                                 list={data}
                                                 func={function () {
-                                                    setHasChanged(true);
+                                                    hasChangedFunc(true);
                                                     item.isValid = true;
                                                     notify(item.kanjiHir, item.kanjiChar);
                                                 }}
@@ -109,23 +130,10 @@ function KanjiCardsHiragana() {
                                 </Card>
                             </div>
                         </Col>
-                    )}
-                </Row>
-            </Container >
-            <ToastContainer
-                position="top-right"
-                autoClose={1000}
-                limit={5}
-                hideProgressBar
-                newestOnTop
-                closeOnClick
-                rtl={false}
-                pauseOnFocusLoss={false}
-                draggable
-                pauseOnHover
-                theme="light"
-            />
-        </>
+                    </>
+                )
+            }
+        })
     )
 }
 

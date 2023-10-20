@@ -7,8 +7,13 @@ import 'react-toastify/dist/ReactToastify.css';
 import '../CSS/Kanji.css';
 
 const data = shuffle(require('../../KanjiList.json').kanji);
-let activePage = 1;
+let pages = [1, 2, 3, 4, 5, 6, 7];
+let activePage = 1
 let modalAnswerData = [];
+
+function setActivePage(pageNum) {
+    activePage = pageNum;
+}
 
 //Toast Render
 const notify = (kanji, hiragana) => toast.success(`${kanji} : ${hiragana}`, {
@@ -26,7 +31,7 @@ const notify = (kanji, hiragana) => toast.success(`${kanji} : ${hiragana}`, {
 // Page Render
 function KanjiCardsKanji() {
     const [hasChanged, setHasChanged] = useState(false);
-    const [modalShow, setModalShow] = React.useState(false);
+    const [modalShow, setModalShow] = useState(false);
 
     useEffect(() => {
         if (hasChanged) setHasChanged(false);
@@ -42,17 +47,19 @@ function KanjiCardsKanji() {
             <Container fluid className='p-3 bg'>
                 <PaginationBar
                     dataProp={data}
-                    setHasChangedProp={setHasChanged}
+                    pagesProp={pages}
+                    activePageProp={activePage}
                     setActivePageProp={setActivePage}
+                    setHasChangedProp={setHasChanged}
                 />
                 <Row>
-                    {createCardsFromData(setHasChanged, setModalShow)}
+                    {createCardsFromData(setHasChanged, setModalShow, activePage)}
                 </Row>
-                <PaginationBar
+                {/* <PaginationBar
                     dataProp={data}
                     setHasChangedProp={setHasChanged}
                     setActivePageProp={setActivePage}
-                />
+                /> */}
             </Container >
 
             <ToastContainer
@@ -99,10 +106,6 @@ function setValueWhenAnswered(isValid, value) {
     return isValid ? value : '平仮名で答え';
 }
 
-function setActivePage(pageNum) {
-    activePage = pageNum;
-}
-
 function setModalAnswerText(item, index) {
     modalAnswerData[0] = `${index + 1} / ${data.length}`;
     modalAnswerData[1] = item.kanjiChar;
@@ -111,7 +114,7 @@ function setModalAnswerText(item, index) {
 }
 
 //Card Render
-function createCardsFromData(hasChangedFunc, modalShowFunc) {
+function createCardsFromData(hasChangedFunc, modalShowFunc, activePage) {
     return (
         data.map((item, index) => {
             if (index >= (activePage - 1) * 16 && index <= ((activePage) * 16 - 1)) {

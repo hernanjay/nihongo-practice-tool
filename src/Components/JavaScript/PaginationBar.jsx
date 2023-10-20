@@ -2,8 +2,8 @@ import React from 'react'
 import { Col, Row, Pagination } from 'react-bootstrap';
 
 let data;
-let pages = [1, 2, 3, 4, 5, 6, 7];
-let activePage = 1;
+let pages;
+let activePage;
 
 function movePage(action) {
     if (action === "forward" && pages[6] <= Math.round(data.length / 16)) {
@@ -47,7 +47,8 @@ function movePage(action) {
 
 function PaginationBar(props) {
     data = props.dataProp;
-    props.setActivePageProp(activePage);
+    pages = props.pagesProp;
+    activePage = props.activePageProp;
     return (
         <Row className='mt-3'>
             <Col className='d-flex justify-content-center'>
@@ -63,6 +64,7 @@ function PaginationBar(props) {
                         onClick={(e) => {
                             movePage('backward');
                             props.setHasChangedProp(true);
+                            props.setActivePageProp(activePage);
                         }}
                         disabled={activePage === 1}
                     />
@@ -112,6 +114,7 @@ function PaginationBar(props) {
                     <Pagination.Next onClick={(e) => {
                         movePage('forward');
                         props.setHasChangedProp(true);
+                        props.setActivePageProp(activePage);
                     }}
                         disabled={activePage === Math.round(data.length / 16)}
                     />

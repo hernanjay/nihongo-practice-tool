@@ -1,0 +1,1972 @@
+{
+    "kanji": [
+        {
+            "kanjiChar": "住む",
+            "kanjiHir": "すむ",
+            "kanjiMeaning": "to live",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "所",
+            "kanjiHir": "ところ",
+            "kanjiMeaning": "place",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "住所",
+            "kanjiHir": "じゅうしょ",
+            "kanjiMeaning": "address",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "場所",
+            "kanjiHir": "ばしょ",
+            "kanjiMeaning": "place",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "東京",
+            "kanjiHir": "とうきょう",
+            "kanjiMeaning": "Tokyo",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "東京都",
+            "kanjiHir": "とうきょうと",
+            "kanjiMeaning": "metropolis of Tokyo",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "都合がいい",
+            "kanjiHir": "つごうがいい",
+            "kanjiMeaning": "convenient",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "京豆府",
+            "kanjiHir": "きょうとふ",
+            "kanjiMeaning": "Kyoto Prefecture",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "山口県",
+            "kanjiHir": "やまぐちけん",
+            "kanjiMeaning": "Yamaguchi Prefecture",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "京都市",
+            "kanjiHir": "きょうとし",
+            "kanjiMeaning": "Kyoto City",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "北区",
+            "kanjiHir": "きたく",
+            "kanjiMeaning": "Kita Ward",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "町",
+            "kanjiHir": "まち",
+            "kanjiMeaning": "town",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "村",
+            "kanjiHir": "むら",
+            "kanjiMeaning": "village",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "明るい",
+            "kanjiHir": "あかるい",
+            "kanjiMeaning": "bright; cheerful",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "明日",
+            "kanjiHir": "あした",
+            "kanjiMeaning": "tomorrow",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "説明",
+            "kanjiHir": "せつめい",
+            "kanjiMeaning": "explanation",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "遠い",
+            "kanjiHir": "とおい",
+            "kanjiMeaning": "far",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "暗い",
+            "kanjiHir": "くらい",
+            "kanjiMeaning": "Dark",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "近い",
+            "kanjiHir": "きんじょ",
+            "kanjiMeaning": "neighborhood",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "強い",
+            "kanjiHir": "つよい",
+            "kanjiMeaning": "strong",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "勉強する",
+            "kanjiHir": "べんきょうする",
+            "kanjiMeaning": "to study",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "弱い",
+            "kanjiHir": "よわい",
+            "kanjiMeaning": "weak",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "重い",
+            "kanjiHir": "おもい",
+            "kanjiMeaning": "heavy",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "太い",
+            "kanjiHir": "ふとい",
+            "kanjiMeaning": "fat",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "軽い",
+            "kanjiHir": "かるい",
+            "kanjiMeaning": "light(weight)",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "細い",
+            "kanjiHir": "ほそい",
+            "kanjiMeaning": "slender",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "細かい",
+            "kanjiHir": "こまかい",
+            "kanjiMeaning": "fine",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "特に",
+            "kanjiHir": "とくに",
+            "kanjiMeaning": "especially",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "重い特別な",
+            "kanjiHir": "とくべつな",
+            "kanjiMeaning": "special",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "特急",
+            "kanjiHir": "とっきゅう",
+            "kanjiMeaning": "limited express",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "別れる",
+            "kanjiHir": "わかれる",
+            "kanjiMeaning": "to separate",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "有る",
+            "kanjiHir": "ある",
+            "kanjiMeaning": "to exist; to be",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "有名な",
+            "kanjiHir": "ゆうめいな",
+            "kanjiMeaning": "famous",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "便利な",
+            "kanjiHir": "べんりな",
+            "kanjiMeaning": "convenient",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "利用する",
+            "kanjiHir": "利用する",
+            "kanjiMeaning": "to use",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "不便な",
+            "kanjiHir": "ふべんな",
+            "kanjiMeaning": "inconvenient",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "切る",
+            "kanjiHir": "きる",
+            "kanjiMeaning": "to cut ",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "切手",
+            "kanjiHir": "きって",
+            "kanjiMeaning": "postage stamp",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "大切な",
+            "kanjiHir": "たいせつな",
+            "kanjiMeaning": "important",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "親切な",
+            "kanjiHir": "しんせつな",
+            "kanjiMeaning": "kind",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "元気な",
+            "kanjiHir": "げんきな",
+            "kanjiMeaning": "fine; active",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "好きな",
+            "kanjiHir": "すきな",
+            "kanjiMeaning": "favorite; liked",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "急に",
+            "kanjiHir": "きゅうに",
+            "kanjiMeaning": "きゅうに",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "急ぐ",
+            "kanjiHir": "いそぐ",
+            "kanjiMeaning": "いそぐ",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "低い",
+            "kanjiHir": "ひくい",
+            "kanjiMeaning": "low",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "広い",
+            "kanjiHir": "ひろい",
+            "kanjiMeaning": "spacious",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "短い",
+            "kanjiHir": "みじかい",
+            "kanjiMeaning": "short",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "良い",
+            "kanjiHir": "よい",
+            "kanjiMeaning": "good",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "悪い",
+            "kanjiHir": "わるい",
+            "kanjiMeaning": "bad",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "正しい",
+            "kanjiHir": "ただしい",
+            "kanjiMeaning": "correct; right",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "お正月",
+            "kanjiHir": "おしょうがつ",
+            "kanjiMeaning": "New Year's",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "変わる",
+            "kanjiHir": "かわる",
+            "kanjiMeaning": "to change",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "変な",
+            "kanjiHir": "へんな",
+            "kanjiMeaning": "strange",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "大変な",
+            "kanjiHir": "たいへんな",
+            "kanjiMeaning": "hard; difficult",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "赤い",
+            "kanjiHir": "あかい",
+            "kanjiMeaning": "red",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "赤ちゃん",
+            "kanjiHir": "あかちゃん",
+            "kanjiMeaning": "baby",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "青い",
+            "kanjiHir": "あおい",
+            "kanjiMeaning": "blue",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "青空",
+            "kanjiHir": "あおぞら",
+            "kanjiMeaning": "blue sky",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "黒い",
+            "kanjiHir": "くろい",
+            "kanjiMeaning": "black",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "映す",
+            "kanjiHir": "うつす",
+            "kanjiMeaning": "to reflect ",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "映画",
+            "kanjiHir": "えいが",
+            "kanjiMeaning": "movie",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "映画館",
+            "kanjiHir": "えいがかん",
+            "kanjiMeaning": "movie theater",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "計画",
+            "kanjiHir": "けいかく",
+            "kanjiMeaning": "plan",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "音",
+            "kanjiHir": "おと",
+            "kanjiMeaning": "sound",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "楽しい",
+            "kanjiHir": "たのし",
+            "kanjiMeaning": "enjoyable",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "音楽",
+            "kanjiHir": "おんがく",
+            "kanjiMeaning": "music",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "歌う",
+            "kanjiHir": "うたう",
+            "kanjiMeaning": "to sing",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "歌手",
+            "kanjiHir": "かしゅ",
+            "kanjiMeaning": "singer",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "写真",
+            "kanjiHir": "しゃしん",
+            "kanjiMeaning": "a photo",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "写す",
+            "kanjiHir": "うつす",
+            "kanjiMeaning": "to copy",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "真ん中",
+            "kanjiHir": "まんなか",
+            "kanjiMeaning": "midmost",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "旅行する",
+            "kanjiHir": "りょこうする",
+            "kanjiMeaning": "to take a trip",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "旅館",
+            "kanjiHir": "りょかん",
+            "kanjiMeaning": "Japanese style inn",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "世話をする",
+            "kanjiHir": "せわをする",
+            "kanjiMeaning": "to take care of",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "世界",
+            "kanjiHir": "せかい",
+            "kanjiMeaning": "world",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "仕事",
+            "kanjiHir": "しごと",
+            "kanjiMeaning": "job",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "火事",
+            "kanjiHir": "かじ",
+            "kanjiMeaning": "fire",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "用事",
+            "kanjiHir": "ようじ",
+            "kanjiMeaning": "business to attend to",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "大事な",
+            "kanjiHir": "だいじな",
+            "kanjiMeaning": "important",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "銀行",
+            "kanjiHir": "ぎんこう",
+            "kanjiMeaning": "bank",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "会社員",
+            "kanjiHir": "かいしゃいん",
+            "kanjiMeaning": "employee",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "銀行員",
+            "kanjiHir": "ぎんこういん",
+            "kanjiMeaning": "bank clerk",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "店員",
+            "kanjiHir": "てんいん",
+            "kanjiMeaning": "store clerk",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "医者",
+            "kanjiHir": "いしゃ",
+            "kanjiMeaning": "doctor",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "者",
+            "kanjiHir": "もの",
+            "kanjiMeaning": "person",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "働く",
+            "kanjiHir": "はたらく",
+            "kanjiMeaning": "to work",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "本屋",
+            "kanjiHir": "ほんや",
+            "kanjiMeaning": "bookstore",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "屋上",
+            "kanjiHir": "おくじょう",
+            "kanjiMeaning": "roof; housetop",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "生む",
+            "kanjiHir": "うむ",
+            "kanjiMeaning": "to give birth",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "産業",
+            "kanjiHir": "さんぎょう",
+            "kanjiMeaning": "industry",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "工業",
+            "kanjiHir": "こうぎょう",
+            "kanjiMeaning": "manufacture",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "林",
+            "kanjiHir": "はやし",
+            "kanjiMeaning": "woods; grove",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "森",
+            "kanjiHir": "もり",
+            "kanjiMeaning": "forest",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "地図",
+            "kanjiHir": "ちず",
+            "kanjiMeaning": "map",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "地下鉄",
+            "kanjiHir": "ちかてつ",
+            "kanjiMeaning": "subway",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "池",
+            "kanjiHir": "いけ",
+            "kanjiMeaning": "pond",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "電池",
+            "kanjiHir": "でんち",
+            "kanjiMeaning": "battery",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "海",
+            "kanjiHir": "うみ",
+            "kanjiMeaning": "the sea; the ocean",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "海外",
+            "kanjiHir": "かいがい",
+            "kanjiMeaning": "overseas",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "西洋",
+            "kanjiHir": "せいよう",
+            "kanjiMeaning": "the West",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "東洋",
+            "kanjiHir": "とうよう",
+            "kanjiMeaning": "the East",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "雪",
+            "kanjiHir": "ゆき",
+            "kanjiMeaning": "snow",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "光",
+            "kanjiHir": "ひかる",
+            "kanjiMeaning": "to shine",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "台",
+            "kanjiHir": "だい",
+            "kanjiMeaning": "table",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "台所",
+            "kanjiHir": "だいどころ",
+            "kanjiMeaning": "kitchen",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "風",
+            "kanjiHir": "かぜ",
+            "kanjiMeaning": "wind",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "台風",
+            "kanjiHir": "たいふう",
+            "kanjiMeaning": "typhoon",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "季節",
+            "kanjiHir": "きせつ",
+            "kanjiMeaning": "season",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "春",
+            "kanjiHir": "はる",
+            "kanjiMeaning": "spring",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "夏",
+            "kanjiHir": "なつ",
+            "kanjiMeaning": "summer",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "夏休み",
+            "kanjiHir": "なつやすみ",
+            "kanjiMeaning": "summer holidays",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "秋",
+            "kanjiHir": "あき",
+            "kanjiMeaning": "autumn",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "冬",
+            "kanjiHir": "ふゆ",
+            "kanjiMeaning": "winter",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "冬休み",
+            "kanjiHir": "ふゆやすみ",
+            "kanjiMeaning": "winter holidays",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "暑い",
+            "kanjiHir": "あつい",
+            "kanjiMeaning": "hot",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "寒い",
+            "kanjiHir": "さむい",
+            "kanjiMeaning": "cold",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "暖かい",
+            "kanjiHir": "あたたかい",
+            "kanjiMeaning": "warm",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "涼しい",
+            "kanjiHir": "すずしい",
+            "kanjiMeaning": "cool",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "体",
+            "kanjiHir": "からだ",
+            "kanjiMeaning": "body",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "頭",
+            "kanjiHir": "あたま",
+            "kanjiMeaning": "head",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "顔",
+            "kanjiHir": "かお",
+            "kanjiMeaning": "face",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "首",
+            "kanjiHir": "くび",
+            "kanjiMeaning": "neck",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "心",
+            "kanjiHir": "こころ",
+            "kanjiMeaning": "heart",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "安心する",
+            "kanjiHir": "あんしんする",
+            "kanjiMeaning": "to be relieved",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "声",
+            "kanjiHir": "こえ",
+            "kanjiMeaning": "voice",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "病気",
+            "kanjiHir": "びょうき",
+            "kanjiMeaning": "illness",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "病院",
+            "kanjiHir": "びょういん",
+            "kanjiMeaning": "hospital",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "薬",
+            "kanjiHir": "くすり",
+            "kanjiMeaning": "medicine",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "科学",
+            "kanjiHir": "かがく",
+            "kanjiMeaning": "science",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "教科書",
+            "kanjiHir": "きょうかしょ",
+            "kanjiMeaning": "textbook",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "内",
+            "kanjiHir": "うち",
+            "kanjiMeaning": "inside; interior",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "朝",
+            "kanjiHir": "あさ",
+            "kanjiMeaning": "morning",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "今朝",
+            "kanjiHir": "けさ",
+            "kanjiMeaning": "this morning",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "朝日",
+            "kanjiHir": "あさひ",
+            "kanjiMeaning": "the morning sun",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "昼",
+            "kanjiHir": "ひる",
+            "kanjiMeaning": "noon",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "昼休み",
+            "kanjiHir": "ひるやすみ",
+            "kanjiMeaning": "lunch break",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "夜",
+            "kanjiHir": "よる",
+            "kanjiMeaning": "night",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "今夜",
+            "kanjiHir": "こんや",
+            "kanjiMeaning": "tonight",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "夕日",
+            "kanjiHir": "ゆうひ",
+            "kanjiMeaning": "sunset",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "夕食",
+            "kanjiHir": "ゆうしょく",
+            "kanjiMeaning": "supper",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "読み方",
+            "kanjiHir": "よみかた",
+            "kanjiMeaning": "how to read",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "夕方",
+            "kanjiHir": "ゆうがた",
+            "kanjiMeaning": "evening",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "あの方",
+            "kanjiHir": "あのかた",
+            "kanjiMeaning": "that person",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "今晩",
+            "kanjiHir": "こんばん",
+            "kanjiMeaning": "tonight",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "毎晩",
+            "kanjiHir": "まいばん",
+            "kanjiMeaning": "every night",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "晩ご飯",
+            "kanjiHir": "ばんごはん",
+            "kanjiMeaning": "dinner",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "時計",
+            "kanjiHir": "とけい",
+            "kanjiMeaning": "watch; clock",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "計画",
+            "kanjiHir": "けいかく",
+            "kanjiMeaning": "plan",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "以上",
+            "kanjiHir": "いじょう",
+            "kanjiMeaning": "more than",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "以下",
+            "kanjiHir": "いか",
+            "kanjiMeaning": "less than",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "以外",
+            "kanjiHir": "いがい",
+            "kanjiMeaning": "except",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "一度",
+            "kanjiHir": "いちど",
+            "kanjiMeaning": "once",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "今度",
+            "kanjiHir": "こんど",
+            "kanjiMeaning": "next time",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "２５度",
+            "kanjiHir": "２５ど",
+            "kanjiMeaning": "25 degrees",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "止まる",
+            "kanjiHir": "とまる",
+            "kanjiMeaning": "to stop",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "中止する",
+            "kanjiHir": "ちゅうしする",
+            "kanjiMeaning": "to call off",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "歩く",
+            "kanjiHir": "あるく",
+            "kanjiMeaning": "to walk",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "走る",
+            "kanjiHir": "はしる",
+            "kanjiMeaning": "to run",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "起きる",
+            "kanjiHir": "おきる",
+            "kanjiMeaning": "to get up",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "持つ",
+            "kanjiHir": "もつ",
+            "kanjiMeaning": "to hold",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "気持ち",
+            "kanjiHir": "きもち",
+            "kanjiMeaning": "feeling ",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "待つ",
+            "kanjiHir": "まつ",
+            "kanjiMeaning": "to wait",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "借りる",
+            "kanjiHir": "かりる",
+            "kanjiMeaning": "to borrow",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "貸す",
+            "kanjiHir": "かす",
+            "kanjiMeaning": "to lend",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "始める",
+            "kanjiHir": "はじめる",
+            "kanjiMeaning": "to begin",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "終わる",
+            "kanjiHir": "おわる",
+            "kanjiMeaning": "to end",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "家",
+            "kanjiHir": "いえ",
+            "kanjiMeaning": "house",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "画家",
+            "kanjiHir": "がか",
+            "kanjiMeaning": "painter",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "家内",
+            "kanjiHir": "かない",
+            "kanjiMeaning": "wife",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "家族",
+            "kanjiHir": "かぞく",
+            "kanjiMeaning": "family",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "私",
+            "kanjiHir": "わたし",
+            "kanjiMeaning": "I",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "自分",
+            "kanjiHir": "じぶん",
+            "kanjiMeaning": "oneself",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "自動ドア",
+            "kanjiHir": "じどうドア",
+            "kanjiMeaning": "automatic door",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "親",
+            "kanjiHir": "おや",
+            "kanjiMeaning": "parent",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "母親",
+            "kanjiHir": "ははおや",
+            "kanjiMeaning": "mother",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "親切な",
+            "kanjiHir": "しんせつな",
+            "kanjiMeaning": "kind",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "両親",
+            "kanjiHir": "りょうしん",
+            "kanjiMeaning": "parents",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "両方",
+            "kanjiHir": "りょうほう",
+            "kanjiMeaning": "both",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "両手",
+            "kanjiHir": "りょうて",
+            "kanjiMeaning": "both hands",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "兄",
+            "kanjiHir": "あに",
+            "kanjiMeaning": "one's older brother",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "お兄さん",
+            "kanjiHir": "おにいさん",
+            "kanjiMeaning": "older brother",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "弟",
+            "kanjiHir": "おとうと",
+            "kanjiMeaning": "one's younger brother",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "兄弟",
+            "kanjiHir": "きょうだい",
+            "kanjiMeaning": "brothers",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "姉",
+            "kanjiHir": "あね",
+            "kanjiMeaning": "one's elder sister",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "お姉さん",
+            "kanjiHir": "おねえさん",
+            "kanjiMeaning": "elder sister",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "妹",
+            "kanjiHir": "いもうと",
+            "kanjiMeaning": "one's younger sister",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "姉妹",
+            "kanjiHir": "しまい",
+            "kanjiMeaning": "sisters",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "生活",
+            "kanjiHir": "せいかつ",
+            "kanjiMeaning": "living",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "回る",
+            "kanjiHir": "まわる",
+            "kanjiMeaning": "to turn",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "一回",
+            "kanjiHir": "いっかい",
+            "kanjiMeaning": "once",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "前回",
+            "kanjiHir": "ぜんかい",
+            "kanjiMeaning": "the last time",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "主人",
+            "kanjiHir": "しゅじん",
+            "kanjiMeaning": "husband",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "色",
+            "kanjiHir": "いろ",
+            "kanjiMeaning": "color",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "茶色",
+            "kanjiHir": "ちゃいろ",
+            "kanjiMeaning": "brown",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "形",
+            "kanjiHir": "かたち",
+            "kanjiMeaning": "shape",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "人形",
+            "kanjiHir": "にんぎょう",
+            "kanjiMeaning": "doll",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "品物",
+            "kanjiHir": "しなもの",
+            "kanjiMeaning": "goods",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "食料品",
+            "kanjiHir": "しょくりょうひん",
+            "kanjiMeaning": "food",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "国民",
+            "kanjiHir": "こくみん",
+            "kanjiMeaning": "citizens of the state",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "市民",
+            "kanjiHir": "しみん",
+            "kanjiMeaning": "citizen",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "服",
+            "kanjiHir": "ふく",
+            "kanjiMeaning": "clothes",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "洋服",
+            "kanjiHir": "ようふく",
+            "kanjiMeaning": "Western clothing",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "犬",
+            "kanjiHir": "いぬ",
+            "kanjiMeaning": "dog",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "子犬",
+            "kanjiHir": "こいぬ",
+            "kanjiMeaning": "puppy",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "同じ",
+            "kanjiHir": "おなじ",
+            "kanjiMeaning": "same",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "米",
+            "kanjiHir": "こめ",
+            "kanjiMeaning": "rice",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "料金",
+            "kanjiHir": "りょうきん",
+            "kanjiMeaning": "fee; charge",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "料理",
+            "kanjiHir": "りょうり",
+            "kanjiMeaning": "cooking",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "地理",
+            "kanjiHir": "ちり",
+            "kanjiMeaning": "geography",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "肉",
+            "kanjiHir": "にく",
+            "kanjiMeaning": "meat",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "牛肉",
+            "kanjiHir": "ぎゅうにく",
+            "kanjiMeaning": "beef",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "肉や",
+            "kanjiHir": "にくや",
+            "kanjiMeaning": "butcher",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "鳥",
+            "kanjiHir": "とり",
+            "kanjiMeaning": "bird",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "小鳥",
+            "kanjiHir": "ことり",
+            "kanjiMeaning": "little bird",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "野菜",
+            "kanjiHir": "やさい",
+            "kanjiMeaning": "vegetable",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "茶",
+            "kanjiHir": "ちゃ",
+            "kanjiMeaning": "tea",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "ご飯",
+            "kanjiHir": "ごはん",
+            "kanjiMeaning": "cooked rice; meal",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "晩御飯",
+            "kanjiHir": "ばんごはん",
+            "kanjiMeaning": "supper",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "夕飯",
+            "kanjiHir": "ゆうはん",
+            "kanjiMeaning": "dinner",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "味",
+            "kanjiHir": "あじ",
+            "kanjiMeaning": "taste",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "意味",
+            "kanjiHir": "いみ",
+            "kanjiMeaning": "meaning",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "代わる",
+            "kanjiHir": "かわる",
+            "kanjiMeaning": "take somebody's place",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "代わりに",
+            "kanjiHir": "かわりに",
+            "kanjiMeaning": "instead",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "使う",
+            "kanjiHir": "つかう",
+            "kanjiMeaning": "to use",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "大使館",
+            "kanjiHir": "たいしかん",
+            "kanjiMeaning": "embassy",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "使用中",
+            "kanjiHir": "しようちゅう",
+            "kanjiMeaning": "be engaged on something",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "作る",
+            "kanjiHir": "つくる",
+            "kanjiMeaning": "to make",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "作文",
+            "kanjiHir": "さくぶん",
+            "kanjiMeaning": "essay",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "変化する",
+            "kanjiHir": "へんかする",
+            "kanjiMeaning": "to change; transform",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "信じる",
+            "kanjiHir": "しんじる",
+            "kanjiMeaning": "to believe",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "信号",
+            "kanjiHir": "しんごう",
+            "kanjiMeaning": "signal",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "進む",
+            "kanjiHir": "すすむ",
+            "kanjiMeaning": "to proceed",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "送る",
+            "kanjiHir": "おくる",
+            "kanjiMeaning": "to send",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "返す",
+            "kanjiHir": "かえす",
+            "kanjiMeaning": "to return (something)",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "洗う",
+            "kanjiHir": "あらう",
+            "kanjiMeaning": "to wash",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "注意する",
+            "kanjiHir": "ちゅういする",
+            "kanjiMeaning": "to pay attention",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "場所",
+            "kanjiHir": "ばしょ",
+            "kanjiMeaning": "place",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "工場",
+            "kanjiHir": "こうじょう",
+            "kanjiMeaning": "factory",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "建てる",
+            "kanjiHir": "たてる",
+            "kanjiMeaning": "to build",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "建物",
+            "kanjiHir": "たてもの",
+            "kanjiMeaning": "building",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "物",
+            "kanjiHir": "もの",
+            "kanjiMeaning": "thing",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "買い物",
+            "kanjiHir": "かいもの",
+            "kanjiMeaning": "shopping",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "動物",
+            "kanjiHir": "どうぶつ",
+            "kanjiMeaning": "animal",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "病院",
+            "kanjiHir": "びょういん",
+            "kanjiMeaning": "hospital",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "入院する",
+            "kanjiHir": "にゅういんする",
+            "kanjiMeaning": "to be hospitalized",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "大学院",
+            "kanjiHir": "だいがくいん",
+            "kanjiMeaning": "grad school",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "映画館",
+            "kanjiHir": "えいがかん",
+            "kanjiMeaning": "movie theater",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "食堂",
+            "kanjiHir": "しょくどう",
+            "kanjiMeaning": "dining room",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "部屋",
+            "kanjiHir": "へや",
+            "kanjiMeaning": "room",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "教室",
+            "kanjiHir": "きょうしつ",
+            "kanjiMeaning": "classroom",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "工事",
+            "kanjiHir": "こうじ",
+            "kanjiMeaning": "construction",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "工業",
+            "kanjiHir": "こうぎょう",
+            "kanjiMeaning": "manufacturing",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "図",
+            "kanjiHir": "ず",
+            "kanjiMeaning": "figure",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "地図",
+            "kanjiHir": "ちず",
+            "kanjiMeaning": "map",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "図書館",
+            "kanjiHir": "としょかん",
+            "kanjiMeaning": "library",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "通る",
+            "kanjiHir": "とおる",
+            "kanjiMeaning": "to go through",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "通う",
+            "kanjiHir": "かよう",
+            "kanjiMeaning": "to commute",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "通学",
+            "kanjiHir": "つうがく",
+            "kanjiMeaning": "commute to school",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "大通り",
+            "kanjiHir": "おおどおり",
+            "kanjiMeaning": "main street",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "動く",
+            "kanjiHir": "うごく",
+            "kanjiMeaning": "to move",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "運動",
+            "kanjiHir": "うんどう",
+            "kanjiMeaning": "exercise",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "自動車",
+            "kanjiHir": "じどうしゃ",
+            "kanjiMeaning": "car",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "乗る",
+            "kanjiHir": "のる",
+            "kanjiMeaning": "to get on",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "タクシー乗り場",
+            "kanjiHir": "タクシのりば",
+            "kanjiMeaning": "taxi stand",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "降りる",
+            "kanjiHir": "おりる",
+            "kanjiMeaning": "to get off",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "雨が降る",
+            "kanjiHir": "あめがふる",
+            "kanjiMeaning": "to rain",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "運ぶ",
+            "kanjiHir": "はこぶ",
+            "kanjiMeaning": "to transport",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "運転する",
+            "kanjiHir": "うんてんする",
+            "kanjiMeaning": "to drive",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "自転車",
+            "kanjiHir": "じてんしゃ",
+            "kanjiMeaning": "bike",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "帰る",
+            "kanjiHir": "かえる",
+            "kanjiMeaning": "to return (home)",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "帰国する",
+            "kanjiHir": "きこくする",
+            "kanjiMeaning": "to return to one's own country",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "出発する",
+            "kanjiHir": "しゅっぱつする",
+            "kanjiMeaning": "to leave",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "着る",
+            "kanjiHir": "きる",
+            "kanjiMeaning": "to put on clothes",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "着く",
+            "kanjiHir": "つく",
+            "kanjiMeaning": "to arrive",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "着物",
+            "kanjiHir": "きもの",
+            "kanjiMeaning": "clothes; kimono",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "漢字",
+            "kanjiHir": "かんじ",
+            "kanjiMeaning": "Chinese character",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "字",
+            "kanjiHir": "じ",
+            "kanjiMeaning": "letter; character",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "文",
+            "kanjiHir": "ぶん",
+            "kanjiMeaning": "sentence",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "文学",
+            "kanjiHir": "ぶんがく",
+            "kanjiMeaning": "literature",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "文字",
+            "kanjiHir": "もじ",
+            "kanjiMeaning": "character; alphabet",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "注文する",
+            "kanjiHir": "ちゅうもんする",
+            "kanjiMeaning": "to order",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "教える",
+            "kanjiHir": "おしえる",
+            "kanjiMeaning": "to teach",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "教室",
+            "kanjiHir": "きょうしつ",
+            "kanjiMeaning": "classroom",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "教科書",
+            "kanjiHir": "きょうかしょ",
+            "kanjiMeaning": "textbook",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "勉強する",
+            "kanjiHir": "べんきょうする",
+            "kanjiMeaning": "to study",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "習う",
+            "kanjiHir": "ならう",
+            "kanjiMeaning": "to learn",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "英語",
+            "kanjiHir": "えいご",
+            "kanjiMeaning": "English",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "考える",
+            "kanjiHir": "かんがえる",
+            "kanjiMeaning": "to think; to ponder",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "研究する",
+            "kanjiHir": "けんきゅうする",
+            "kanjiMeaning": "to do research",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "研究者",
+            "kanjiHir": "けんきゅうしゃ",
+            "kanjiMeaning": "researcher",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "研究室",
+            "kanjiHir": "けんきょうしつ",
+            "kanjiMeaning": "laboratory",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "問",
+            "kanjiHir": "とい",
+            "kanjiMeaning": "question",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "質問",
+            "kanjiHir": "しつもん",
+            "kanjiMeaning": "question",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "質問する",
+            "kanjiHir": "しつもんする",
+            "kanjiMeaning": "to ask a question",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "題名",
+            "kanjiHir": "だいめい",
+            "kanjiMeaning": "title",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "試合",
+            "kanjiHir": "しあい",
+            "kanjiMeaning": "game",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "説明",
+            "kanjiHir": "せつめい",
+            "kanjiMeaning": "explanation",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "試験",
+            "kanjiHir": "しけん",
+            "kanjiMeaning": "examination",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "間に合う",
+            "kanjiHir": "まにあう",
+            "kanjiMeaning": "to be in time",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "場合",
+            "kanjiHir": "ばあい",
+            "kanjiMeaning": "case",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "都合がいい",
+            "kanjiHir": "つごうがいい",
+            "kanjiMeaning": "convenient",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "答える",
+            "kanjiHir": "こたえる",
+            "kanjiMeaning": "to answer",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "答え",
+            "kanjiHir": "こたえ",
+            "kanjiMeaning": "answer",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "利用する",
+            "kanjiHir": "りょうする",
+            "kanjiMeaning": "to use",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "紙",
+            "kanjiHir": "かみ",
+            "kanjiMeaning": "paper",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "手紙",
+            "kanjiHir": "てがみ",
+            "kanjiMeaning": "letter",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "コピー用紙",
+            "kanjiHir": "コピーようし",
+            "kanjiMeaning": "photocopying paper",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "新聞紙",
+            "kanjiHir": "しんぶんし",
+            "kanjiMeaning": "piece of newspaper",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "意味",
+            "kanjiHir": "いみ",
+            "kanjiMeaning": "meaning",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "注意する",
+            "kanjiHir": "ちゅういする",
+            "kanjiMeaning": "pay attention",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "用意する",
+            "kanjiHir": "よういする",
+            "kanjiMeaning": "to prepare",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "意見",
+            "kanjiHir": "いけん",
+            "kanjiMeaning": "opinion",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "問題",
+            "kanjiHir": "もんだい",
+            "kanjiMeaning": "question",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "引く",
+            "kanjiHir": "ひく",
+            "kanjiMeaning": "to pull",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "引き出し",
+            "kanjiHir": "ひきだし",
+            "kanjiMeaning": "withdraw money",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "開ける",
+            "kanjiHir": "あける",
+            "kanjiMeaning": "to open",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "開く",
+            "kanjiHir": "ひらく",
+            "kanjiMeaning": "to open",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "閉める",
+            "kanjiHir": "しめる",
+            "kanjiMeaning": "to close",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "去年",
+            "kanjiHir": "きょねん",
+            "kanjiMeaning": "last year",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "死ぬ",
+            "kanjiHir": "しぬ",
+            "kanjiMeaning": "to die",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "集める",
+            "kanjiHir": "あつめる",
+            "kanjiMeaning": "to collect",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "集まる",
+            "kanjiHir": "あつまる",
+            "kanjiMeaning": "to gather",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "知る",
+            "kanjiHir": "しる",
+            "kanjiMeaning": "to know",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "売る",
+            "kanjiHir": "うる",
+            "kanjiMeaning": "to sell",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "説明する",
+            "kanjiHir": "せつめいする",
+            "kanjiMeaning": "to explain",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "小説",
+            "kanjiHir": "しょうせつ",
+            "kanjiMeaning": "novel",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "思う",
+            "kanjiHir": "おもう",
+            "kanjiMeaning": "to think",
+            "isValid": false
+        },
+        {
+            "kanjiChar": "思い出す",
+            "kanjiHir": "おもいだす",
+            "kanjiMeaning": "to recall",
+            "isValid": false
+        }
+    ]
+}

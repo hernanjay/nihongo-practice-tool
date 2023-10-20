@@ -26,7 +26,6 @@ function Home() {
     }
 
     return (
-
         <>
             <NavBar
                 func={function () {
