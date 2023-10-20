@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import NavBar from './JavaScript/NavBar';
+import NavBar from '../Components/JavaScript/NavBar';
 import KanjiCardsKanji from './JavaScript/KanjiCardsKanji';
 import KanjiCardsHiragana from './JavaScript/KanjiCardsHiragana';
 import VocabCards from './JavaScript/VocabCards';
@@ -20,6 +20,7 @@ function Home() {
             return <div className='home'><img
                 src='https://media.tenor.com/OjBnHuXIjgwAAAAC/gudetama-sanrio.gif'
                 className='position-fixed top-50 start-50 translate-middle homeImg'
+                alt=''
             /></div>;
         }
     }

@@ -22,7 +22,7 @@ function MyVerticallyCenteredModal(props) {
                 </Modal.Title>
             </Modal.Header>
             <Modal.Body>
-                <img className='position-absolute top-50 start-0 translate-middle' src='https://1.bp.blogspot.com/-auO3Bo9t3Q0/X7zMhiUnzhI/AAAAAAABccw/qJt-eSC-STwa8Upc6z3Degmc6ZLHDzekwCNcBGAsYHQ/s450/sagyouin_stand_smartphone_woman.png' />
+                <img className='position-absolute top-50 start-0 translate-middle' src='https://1.bp.blogspot.com/-auO3Bo9t3Q0/X7zMhiUnzhI/AAAAAAABccw/qJt-eSC-STwa8Upc6z3Degmc6ZLHDzekwCNcBGAsYHQ/s450/sagyouin_stand_smartphone_woman.png' alt='' />
                 <h4 className='kanjiCardBody text-center p-5 m-5 fs-1'>{modalAnswerData[1]}</h4>
                 <ModalFooter>
                     <blockquote className="blockquote mb-0">
