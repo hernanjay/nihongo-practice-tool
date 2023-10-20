@@ -57,6 +57,7 @@ function PaginationBar(props) {
                         onClick={(e) => {
                             movePage('first');
                             props.setHasChangedProp(true);
+                            props.setActivePageProp(activePage);
                         }}
                         disabled={activePage === 1}
                     />
@@ -71,39 +72,47 @@ function PaginationBar(props) {
                     <Pagination.Item onClick={(e) => {
                         activePage = pages[0];
                         props.setHasChangedProp(true);
+                        props.setActivePageProp(activePage);
                     }} active={activePage === pages[0]}>{pages[0]}
                     </Pagination.Item>
                     <Pagination.Ellipsis onClick={(e) => {
                         movePage('backwardSkip');
                         props.setHasChangedProp(true);
+                        props.setActivePageProp(activePage);
                     }}
                         disabled={pages[0] < 7}
                     />
                     <Pagination.Item onClick={(e) => {
                         activePage = pages[1];
                         props.setHasChangedProp(true);
+                        props.setActivePageProp(activePage);
                     }} active={activePage === pages[1]}>{pages[1]}
                     </Pagination.Item>
                     <Pagination.Item onClick={(e) => {
                         activePage = pages[2];
                         props.setHasChangedProp(true);
+                        props.setActivePageProp(activePage);
                     }} active={activePage === pages[2]}>{pages[2]}</Pagination.Item>
                     <Pagination.Item onClick={(e) => {
                         activePage = pages[3];
                         props.setHasChangedProp(true);
+                        props.setActivePageProp(activePage);
                     }} active={activePage === pages[3]}>{pages[3]}</Pagination.Item>
                     <Pagination.Item onClick={(e) => {
                         activePage = pages[4];
                         props.setHasChangedProp(true);
+                        props.setActivePageProp(activePage);
                     }} active={activePage === pages[4]}>{pages[4]}</Pagination.Item>
                     <Pagination.Item onClick={(e) => {
                         activePage = pages[5];
                         props.setHasChangedProp(true);
+                        props.setActivePageProp(activePage);
                     }} active={activePage === pages[5]}>{pages[5]}</Pagination.Item>
 
                     <Pagination.Ellipsis onClick={(e) => {
                         movePage('forwardSkip');
                         props.setHasChangedProp(true);
+                        props.setActivePageProp(activePage);
                     }}
                         disabled={pages[6] > Math.round(data.length / 16) - 7}
                     />
@@ -115,12 +124,14 @@ function PaginationBar(props) {
                         movePage('forward');
                         props.setHasChangedProp(true);
                         props.setActivePageProp(activePage);
+                        props.setActivePageProp(activePage);
                     }}
                         disabled={activePage === Math.round(data.length / 16)}
                     />
                     <Pagination.Last onClick={(e) => {
                         movePage('last');
                         props.setHasChangedProp(true);
+                        props.setActivePageProp(activePage);
                     }}
                         disabled={activePage === Math.round(data.length / 16)}
                     />

@@ -17,7 +17,9 @@ function appNavBar(props) {
                         alt='Nihongo Practice Tool Logo'
                     />
                 </Navbar.Brand>
-                <Navbar.Brand>N4 Nihongo Practice Tool</Navbar.Brand>
+                <Navbar.Brand as={NavLink} to="/home" onClick={(e) => {
+                    props.func();
+                }}>N4 Nihongo Practice Tool</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
