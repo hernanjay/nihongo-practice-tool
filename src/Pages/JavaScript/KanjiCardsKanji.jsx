@@ -10,20 +10,20 @@ let data = shuffle(require('../../KanjiList.json').kanji);
 const baseData = require('../../KanjiListBase.json').kanji
 let weightedData = weightData();
 
-function resetDataSet() {
-    const resetedData = [];
-    for (let x = 0; x < baseData.length; x++) {
-        for (let y = 0; y < data.length; y++) {
-            if (baseData[x].kanjiChar === data[y].kanjiChar) {
-                console.log(`Before ${baseData[x].kanjiChar} : ${baseData[x].Weight}`);
-                baseData[x].Weight = data[y].Weight;
-                console.log(`After ${baseData[x].kanjiChar} : ${baseData[x].Weight}`);
-                resetedData.push(baseData[x]);
-            }
-        }
-    }
-    data = shuffle(resetedData)
-}
+// function resetDataSet() {
+//     const resetedData = [];
+//     for (let x = 0; x < baseData.length; x++) {
+//         for (let y = 0; y < data.length; y++) {
+//             if (baseData[x].kanjiChar === data[y].kanjiChar) {
+//                 console.log(`Before ${baseData[x].kanjiChar} : ${baseData[x].Weight}`);
+//                 baseData[x].Weight = data[y].Weight;
+//                 console.log(`After ${baseData[x].kanjiChar} : ${baseData[x].Weight}`);
+//                 resetedData.push(baseData[x]);
+//             }
+//         }
+//     }
+//     data = shuffle(resetedData)
+// }
 
 function weightData() {
     let weightedData = [];
@@ -35,10 +35,6 @@ function weightData() {
         });
     }
     return weightedData;
-}
-
-function setDataSet() {
-    weightedData = weightData();
 }
 
 // const data = shuffle(require('../../KanjiList.json').kanji);
@@ -77,7 +73,6 @@ const notifyChangedWeight = (kanji, weight) => toast.info(`${kanji}'s Weight cha
 function KanjiCardsKanji() {
     const [hasChanged, setHasChanged] = useState(false);
     const [modalShow, setModalShow] = useState(false);
-    resetDataSet();
 
     useEffect(() => {
         if (hasChanged) setHasChanged(false);
