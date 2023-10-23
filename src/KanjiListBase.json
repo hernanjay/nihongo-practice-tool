@@ -5,14 +5,14 @@
             "kanjiHir": "すむ",
             "kanjiMeaning": "to live",
             "isValid": false,
-            "Weight": 8
+            "Weight": 5
         },
         {
             "kanjiChar": "所",
             "kanjiHir": "ところ",
             "kanjiMeaning": "place",
             "isValid": false,
-            "Weight": 6
+            "Weight": 5
         },
         {
             "kanjiChar": "住所",
@@ -26,7 +26,7 @@
             "kanjiHir": "だいどころ",
             "kanjiMeaning": "kitchen",
             "isValid": false,
-            "Weight": 7
+            "Weight": 5
         },
         {
             "kanjiChar": "場所",
@@ -746,13 +746,6 @@
             "kanjiChar": "台",
             "kanjiHir": "だい",
             "kanjiMeaning": "table",
-            "isValid": false,
-            "Weight": 5
-        },
-        {
-            "kanjiChar": "台所",
-            "kanjiHir": "だいどころ",
-            "kanjiMeaning": "kitchen",
             "isValid": false,
             "Weight": 5
         },

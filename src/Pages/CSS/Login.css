@@ -1,0 +1,29 @@
+.form {
+    border: 1px solid #B68973 !important;
+}
+
+.form-header {
+    background-color: #EABF9F !important;
+
+}
+
+.form-body {
+    background-color: #fffdf3 !important;
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+    color: #9f6d54 !important;
+}
+
+.login-button {
+    background-color: #EABF9F !important;
+    /* border-color: none !important; */
+    border: 1px solid #B68973 !important;
+}
+
+.login-button:hover {
+    background-color: #B68973 !important;
+    /* border-color: none !important; */
+    border: 1px solid #B68973 !important;
+}

@@ -84,3 +84,27 @@
     --bs-pagination-disabled-border-color: #B68973 !important;
     padding-left: 0;
 }
+
+.priorityButtons {
+    background-color: transparent !important;
+    color: #B68973 !important;
+    border: 1px solid #EABF9F !important;
+}
+
+.priorityButtonsAdd:hover {
+    background-color: #3ccd4d22 !important;
+    color: #3ccd4d !important;
+    border: 1px solid #3ccd4d !important;
+}
+
+.priorityButtonsRemove:hover {
+    background-color: #c2242422 !important;
+    color: #c22424 !important;
+    border: 1px solid #c22424 !important;
+}
+
+.priorityButtonsSubtract:hover {
+    background-color: #c2782422 !important;
+    color: #c27824 !important;
+    border: 1px solid #c27824 !important;
+}

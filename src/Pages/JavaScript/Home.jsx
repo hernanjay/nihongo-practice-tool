@@ -3,23 +3,48 @@ import NavBar from '../../Components/JavaScript/NavBar';
 import KanjiCardsKanji from './KanjiCardsKanji';
 import KanjiCardsHiragana from './KanjiCardsHiragana';
 import VocabCards from './VocabCards';
+import Login from './Login';
+import Register from './Register';
 import '../CSS/Home.css';
 import { Container, Card, CardGroup, Row, Col } from 'react-bootstrap';
+
 function Home() {
     const [hasChanged, setHasChanged] = useState(false);
+    const [isLoggedIn, setIsLoggedIn] = useState(true);
+    const [userName, setUserName] = useState('');
     const writtingImg = 'https://1.bp.blogspot.com/-0wXC6MMwTqs/Xrea7O9QSuI/AAAAAAABY1U/apyEhwKBcTws66j3jFVmQUD0dMvIO7GRwCNcBGAsYHQ/s400/study_school_jugyou_boy.png';
 
     const currentPath = window.location.href.split(window.location.origin)[1];
 
     function getPage() {
-        if (currentPath === '/nihongo-practice-tool/#/kanji') {
-            return <KanjiCardsKanji />;
-        } else if (currentPath === '/nihongo-practice-tool/#/hiragana') {
-            return <KanjiCardsHiragana />
-        } else if (currentPath === '/nihongo-practice-tool/#/vocab') {
-            return <VocabCards />
+        if (isLoggedIn) {
+            if (currentPath === '/nihongo-practice-tool/#/kanji') {
+                return <KanjiCardsKanji />;
+            } else if (currentPath === '/nihongo-practice-tool/#/hiragana') {
+                return <KanjiCardsHiragana />
+            } else if (currentPath === '/nihongo-practice-tool/#/vocab') {
+                return <VocabCards />
+            } else if (currentPath === '/nihongo-practice-tool/#/register') {
+                return <Register func={function () {
+                    setHasChanged(!hasChanged);
+                }} />
+            }
+            else {
+                return landingPage();
+            }
         } else {
-            return landingPage();
+            if (currentPath === '/nihongo-practice-tool/#/login') {
+                return <Login func={function () {
+                    setHasChanged(!hasChanged);
+                }}
+                    setIsLoggedIn={setIsLoggedIn}
+                    setUserName={setUserName}
+                />
+            } else {
+                return <Register func={function () {
+                    setHasChanged(!hasChanged);
+                }} />
+            }
         }
     }
 
@@ -119,7 +144,12 @@ function Home() {
             <NavBar
                 func={function () {
                     setHasChanged(!hasChanged);
-                }} />
+                }}
+                isLoggedIn={isLoggedIn}
+                setIsLoggedIn={setIsLoggedIn}
+                userName={userName}
+                setUserName={setUserName}
+            />
             {getPage()}
         </>
     )

@@ -1,12 +1,47 @@
 import React, { useState, useEffect } from 'react'
-import { Row, Col, Container, Form, CardFooter, Card } from 'react-bootstrap';
+import { Row, Col, Container, Form, CardFooter, Card, Button, ButtonGroup } from 'react-bootstrap';
 import { ToastContainer, toast } from 'react-toastify';
 import PaginationBar from "../../Components/JavaScript/PaginationBar";
 import { KanjiModal } from '../../Components/JavaScript/Modals';
 import 'react-toastify/dist/ReactToastify.css';
 import '../CSS/Kanji.css';
 
-const data = shuffle(require('../../KanjiList.json').kanji);
+let data = shuffle(require('../../KanjiList.json').kanji);
+const baseData = require('../../KanjiListBase.json').kanji
+let weightedData = weightData();
+
+function resetDataSet() {
+    const resetedData = [];
+    for (let x = 0; x < baseData.length; x++) {
+        for (let y = 0; y < data.length; y++) {
+            if (baseData[x].kanjiChar === data[y].kanjiChar) {
+                console.log(`Before ${baseData[x].kanjiChar} : ${baseData[x].Weight}`);
+                baseData[x].Weight = data[y].Weight;
+                console.log(`After ${baseData[x].kanjiChar} : ${baseData[x].Weight}`);
+                resetedData.push(baseData[x]);
+            }
+        }
+    }
+    data = shuffle(resetedData)
+}
+
+function weightData() {
+    let weightedData = [];
+    for (let index = 10; index >= 0; index--) {
+        data.forEach(e => {
+            if (e.Weight === index) {
+                weightedData.push(e);
+            }
+        });
+    }
+    return weightedData;
+}
+
+function setDataSet() {
+    weightedData = weightData();
+}
+
+// const data = shuffle(require('../../KanjiList.json').kanji);
 let pages = [1, 2, 3, 4, 5, 6, 7];
 let activePage = 1
 let modalAnswerData = [];
@@ -27,11 +62,22 @@ const notify = (kanji, hiragana) => toast.success(`${kanji} : ${hiragana}`, {
     theme: "light",
 });
 
+const notifyChangedWeight = (kanji, weight) => toast.info(`${kanji}'s Weight changed to ${weight}`, {
+    position: "top-right",
+    autoClose: 1000,
+    hideProgressBar: true,
+    closeOnClick: true,
+    pauseOnHover: true,
+    draggable: true,
+    progress: undefined,
+    theme: "light",
+});
 
 // Page Render
 function KanjiCardsKanji() {
     const [hasChanged, setHasChanged] = useState(false);
     const [modalShow, setModalShow] = useState(false);
+    resetDataSet();
 
     useEffect(() => {
         if (hasChanged) setHasChanged(false);
@@ -120,7 +166,7 @@ function setModalAnswerText(item, index) {
 //Card Render
 function createCardsFromData(hasChangedFunc, modalShowFunc, activePage) {
     return (
-        data.map((item, index) => {
+        weightedData.map((item, index) => {
             if (index >= (activePage - 1) * 16 && index <= ((activePage) * 16 - 1)) {
                 return (
                     <>
@@ -162,17 +208,51 @@ function createCardsFromData(hasChangedFunc, modalShowFunc, activePage) {
                                             />
                                         </Form>
                                     </Card.Body>
-                                    <CardFooter className='p-3'>
-                                        <blockquote className="blockquote mb-0">
+                                    <CardFooter className='d-block p-3'>
+                                        <blockquote className="d-block blockquote mb-0">
                                             <p className='text-muted'>{item.isValid ? item.kanjiHir : "平仮名"}</p>
                                             <footer className="blockquote-footer">
                                                 <cite title="Source Title">{item.isValid ? item.kanjiMeaning.charAt(0).toUpperCase() + item.kanjiMeaning.slice(1) : "Definition"}</cite>
                                             </footer>
                                         </blockquote>
+                                        <ButtonGroup className='d-block float-end mt-2'>
+                                            <Button
+                                                size="sm"
+                                                className='priorityButtons priorityButtonsAdd'
+                                                onClick={() => {
+                                                    if (item.Weight < 10) {
+                                                        data[index].Weight += 1;
+                                                        notifyChangedWeight(item.kanjiChar, item.Weight);
+                                                    }
+                                                }}>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                                                    <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+                                                </svg>
+                                            </Button>
+                                            <Button size="sm" className='priorityButtons priorityButtonsRemove' onClick={() => {
+                                                item.Weight = 0;
+                                                notifyChangedWeight(item.kanjiChar, item.Weight);
+                                            }}>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                                                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                                                </svg>
+                                            </Button>
+                                            <Button size="sm" className='priorityButtons priorityButtonsSubtract' onClick={() => {
+                                                if (item.Weight > 0) {
+                                                    data[index].Weight -= 1;
+                                                    notifyChangedWeight(item.kanjiChar, data[index].Weight);
+                                                }
+                                            }}>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash" viewBox="0 0 16 16">
+                                                    <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z" />
+                                                </svg>
+                                            </Button>
+
+                                        </ButtonGroup>
                                     </CardFooter>
                                 </Card>
                             </div>
-                        </Col>
+                        </Col >
                     </>
                 )
             }
